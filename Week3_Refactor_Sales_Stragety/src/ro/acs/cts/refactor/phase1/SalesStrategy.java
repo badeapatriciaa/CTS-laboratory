@@ -1,6 +1,6 @@
-package ro.acs.cts.g1092.refactor.phase1;
+package ro.acs.cts.refactor.phase1;
 
-import ro.ase.cts.g1092.refactor.phase2.ProductType;
+import ro.ase.cts.refactor.phase2.ProductType;
 
 public class SalesStrategy {
 

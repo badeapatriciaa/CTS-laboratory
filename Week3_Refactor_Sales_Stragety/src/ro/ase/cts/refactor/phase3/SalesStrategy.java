@@ -1,6 +1,6 @@
-package ro.ase.cts.g1092.refactor.phase3;
+package ro.ase.cts.refactor.phase3;
 
-import ro.ase.cts.g1092.refactor.exceptions.InvalidValueException;
+import ro.ase.cts.refactor.exceptions.InvalidValueException;
 
 public class SalesStrategy {
 //camelcase 

@@ -1,4 +1,4 @@
-package ro.ase.acs.cts.laborator3;
+package ro.ase.cts.laborator3;
 
 public class Clasa1 {
 	  public float Calculeaza(int t, float s, int perioada)

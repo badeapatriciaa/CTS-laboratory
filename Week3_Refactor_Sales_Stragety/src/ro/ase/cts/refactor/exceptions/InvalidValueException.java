@@ -1,4 +1,4 @@
-package ro.ase.cts.g1092.refactor.exceptions;
+package ro.ase.cts.refactor.exceptions;
 
 public class InvalidValueException extends Exception{
 	
