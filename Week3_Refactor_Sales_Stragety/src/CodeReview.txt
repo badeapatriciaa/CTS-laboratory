@@ -12,5 +12,14 @@ Code review
 - is t limited to {1, 2, 3, 4} or it can be bigger?
 - there are no validations for t, s and perioada
 
-3. Single responsability & KISS
-- outsource the intermediary operations into new simple functions
+3. Single responsibility & KISS
+- out-source the intermediary operations into new simple functions
+
+4. Reduce the complexity of the existing functions -  Single responsibility & KISS
+-reduce the complexity of the repeating pattern (getPriceWithDiscount)
+-remove the switch by refactoring the 1st case 
+
+5. Single Responsbibility and Depedency Inversion (don't make the confusion between this one and dependency injection)
+-refactor the custom exceptions framework
+-remove the dependency on how we validate the price and the account age 
+- remove the dependency on values and operations that are managed by Marketing department
