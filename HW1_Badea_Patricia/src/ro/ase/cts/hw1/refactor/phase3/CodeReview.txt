@@ -1,0 +1,29 @@
+Code review
+
+1. Code structure & naming conventions
+
+- the package name is too generic;
+- the class name is too generic;
+- the functions' names are not suggestive;
+- the functions' arguments' names are not suggestive;
+- lowerCamelCase usage in arguments' names
+- parameters and operators sepatared by space
+
+2. Implementation
+
+- the appereance of "magic numbers"(harcoded values)
+- is accountType limited or it can be bigger?
+- adding validations for parameters using exceptions
+
+3. Single responsibility & KISS
+
+- out-sourcing the intermediary operations into new simple functions
+
+4. Reduce the complexity of the existing functions -  Single responsibility & KISS
+
+-reducing the complexity of the repeating pattern (calculateTotalFee)
+-removing the switch by refactoring it
+
+5. Single Responsbibility and Depedency Inversion 
+
+-refactoring the custom exceptions framework using interfaces

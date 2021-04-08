@@ -1,0 +1,14 @@
+Code review
+
+1. Code structure & naming conventions
+- modifying package name, class name, functions and arguments name into names that are more suggestive
+- refactoring the design of the code
+
+2. Implementation
+- hardcoded values
+- manage accountType into enum
+- validations with exception for parameters 
+
+3. Single responsibility & KISS
+- out-sourcing the intermediary operations into simpler operations
+
