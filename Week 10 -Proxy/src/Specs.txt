@@ -1,0 +1,5 @@
+Add an additional login filter
+-	At this moment the login is base on username and password and if the password is wrong, the user can try several times
+-	There are attacks on the player’s accounts and the attacker guesses the password related to the account after several attempts
+-	It is desired to modify the login module by limiting the number of attempts to a maximum of 3/ add 2 step authentification
+-	The existing login module must be modified without interrupting the game
